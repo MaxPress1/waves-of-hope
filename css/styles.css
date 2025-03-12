@@ -23,6 +23,8 @@ a {
 
 img {
     display: block;
+    height: auto;
+    width: 100%;
     
 }
 
@@ -75,7 +77,8 @@ img {
 @media screen and (max-width:600px) {
     .box {
         flex-direction: column;
-        max-width: 600px;
+        max-width: 500px;
+        overflow: hidden;
 
     }
     .box > ul {
