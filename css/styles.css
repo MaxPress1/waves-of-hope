@@ -43,8 +43,7 @@ img {
 
 .box {
     background-color: red;
-    width: 1200px;
-    height: 600px;
+    max-width: 1200px;
     display: flex;
     margin: 50px auto;
     padding: 20px;
